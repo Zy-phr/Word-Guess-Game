@@ -47,3 +47,12 @@ var gamePhrases = [
     var currentPhrase;
     var displayString = '';
     var whiteWalkerlevel = 0;
+
+    var audio = new Audio('assets/sounds/Game_Of_Thrones_Main_Title-576202.mp3');
+    var audio_whiteWalker = new Audio('assets/sounds/you_know_nothing.mp3');
+    var audio_Nothing = new Audio('assets/sounds/you_know_nothing.mp3');
+
+    //https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById
+   var display = document.getElementById('phrase_display');
+   var blurb_display = document.getElementById('blurb_display');
+   var main_image = document.getElementById('main_image');
