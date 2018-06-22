@@ -1,6 +1,12 @@
+/*
+=======================================================
+Game of Thrones Questions in blurb_display
+=======================================================
+*/
+
 var gamePhrases = [
     {phrase: "Ghost", blurb: "What is the name of Jon's direwolf?"},
-    {phrase: "Rhaegar Targaryen", blurb: "In the first episode, King Robert Baratheon say.. In my dreams, I kill him every night.. To whom is the King referrring to?"},
+    {phrase: "Rhaegar Targaryen", blurb: "King Robert Baratheon say.. In my dreams, I kill him every night.. To whom is the King referrring to?"},
     {phrase: "Robert Baratheon", blurb: "Who is King of Westeros when the series begins?"},
     {phrase: "Westeros", blurb: "What is the name of the continent on which most of the action of Game of Thrones takes place?"},
     {phrase: "Locke", blurb: "What was the name of the person who chopped off Jaime's right hand?"},
@@ -19,7 +25,17 @@ var gamePhrases = [
      "LEVEL 5!  I WILL DEFEND THE WALL!",
      "LEVEL 6!  WINTER IS COMING!"
    ];
+
+   function getNewPhrase() {
+
+        var choice_idx = Math.floor(Math.random() * gamePhrases.length);
+
+        var results = gamePhrases.splice(choice_idx, 1)[0];
+        return results;
+
+    }
    
+    var lettersToWinGame = 0;
     var templateArray =[]; /*used to determine if user won*/
     var	remainingGuesses =10;
     var gamesWon =0;
@@ -28,3 +44,6 @@ var gamePhrases = [
     var gameOver = false;
     var userWon = false;
     var userLost = false;
+    var currentPhrase;
+    var displayString = '';
+    var whiteWalkerlevel = 0;
