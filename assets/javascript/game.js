@@ -5,17 +5,30 @@ Game of Thrones Questions in blurb_display
 */
 
 var gamePhrases = [
-    {phrase: "Ghost", blurb: "What is the name of Jon's direwolf?"},
-    {phrase: "Rhaegar Targaryen", blurb: "King Robert Baratheon say.. In my dreams, I kill him every night.. To whom is the King referrring to?"},
-    {phrase: "Robert Baratheon", blurb: "Who is King of Westeros when the series begins?"},
-    {phrase: "Westeros", blurb: "What is the name of the continent on which most of the action of Game of Thrones takes place?"},
-    {phrase: "Locke", blurb: "What was the name of the person who chopped off Jaime's right hand?"},
-    {phrase: "House Tully", blurb: "What noble house is Catelyn Stark from?"},
-    {phrase: "Stannis Baratheon", blurb: "Who said... The Iron Throne is mine by right. All those that deny that are my foes."},
-    {phrase: "Dragon glass", blurb: "What can kill a White Walker?"},
-    {phrase: "Catelyn Stark", blurb: "Who did Petyr Baelish loved since he was a little child?"},
-    {phrase: "Daenerys Targaryen", blurb: "Who is the Mother of Dragons"},
-   ]; 
+  {phrase: "Ned Stark", blurb: "Who Said...The man who passes the sentence should swing the sword."},
+  {phrase: "Jaime Lannister", blurb: "Who Said...The things I do for love."},
+  {phrase: "Joffrey", blurb: "Who Said...Everyone is mine to torment."},
+  {phrase: "Melisandre", blurb: "Who Said...The night is dark and full of terrors."},
+  {phrase: "Lannisters", blurb: "Who Said...A Lannister always pays his debts."},
+  {phrase: "Syrio Forel", blurb: "Who Said...What do we say to the God of death?"},
+  {phrase: "Tyrion Lannister", blurb: "Who Said...That's what I do: I drink and I know things"},
+  {phrase: "Cersei Lannister", blurb: "Who Said...If you ever call me sister again, I'll have you strangled in your sleep."},
+  {phrase: "Tywin Lannister", blurb: "Who Said...Any man who must say 'I am the King' is no true King."},
+  {phrase: "Samwell Tarly", blurb: "Who Said...I read it in a book."},
+  {phrase: "Jon Snow", blurb: "Who Said...If I fall, don't bring me back."},
+  {phrase: "Lord Varys", blurb: "Who Said...The big fish eat the little fish and I keep on paddling."},
+  {phrase: "Wylis", blurb: "Who Said...Hold the door!"},
+  {phrase: "Arya Stark", blurb: "Who Said...Anyone can be killed."},
+  {phrase: "Rodrik Cassel", blurb: "Who Said...Gods help you Theon Greyjoy, now you are truly lost."},
+  {phrase: "Jorah Mormont", blurb: "Who Said...There’s a beast in every man, and it stirs when you put a sword in his hand."},
+  {phrase: "Daenerys Targaryen", blurb: "Who Said...Dracarys."},
+  {phrase: "Ramsay Bolton", blurb: "Who Said...If you think this has a happy ending, you haven’t been paying attention."},
+  {phrase: "Bran Stark", blurb: "Who Said...Hush, Hodor. No more Hodor-ing!"},
+  {phrase: "The Hound", blurb: "Who Said...If any more words come pouring out your c--t mouth"},
+  {phrase: "Sansa Stark", blurb: "Who Said...You are going to die tomorrow, Lord Bolton. Sleep well"},
+  {phrase: "Olenna Tyrell", blurb: "Who Said...Are you a sheep? No, you're a dragon...be a dragon"},
+  {phrase: "Robert Barathron", blurb: "Who Said...I swear to you, sitting a throne is a thousand times harder than winning one"},
+ ]; 
    
    var whiteWalkerMessages = [
      "LEVEL 1!  I WILL PLAY THE GAME!",
