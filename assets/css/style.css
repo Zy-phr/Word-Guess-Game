@@ -1,0 +1,145 @@
+/*
+=======================================================
+CSS for Game of Thrones Hangman game
+=======================================================
+*/
+
+body {
+    background-color:black;
+    background-image: url(../images/backgroundImage.png);
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+/*
+=======================================================
+NavBar 
+=======================================================
+*/
+
+.navbar {
+    padding: 0; 
+    background-color: black;
+    border-bottom: 2px solid #666;
+    text-align: center;
+}
+
+.img-fluid {
+    width: 100%;
+    height: 75px;
+    margin-bottom: 4px;
+    margin-top: 6px;
+}
+
+/*
+=======================================================
+Question section
+=======================================================
+*/
+
+#blurb_display {
+    background-color: black;  
+    text-align: center;
+    color: gray;
+    padding: 2%;
+    font-family: 'Audiowide', cursive;
+    margin-top: 110px;
+    margin-bottom: 3px;
+}
+
+/*
+=======================================================
+Answer display box
+=======================================================
+*/
+  
+#phrase_display {
+    height: 100px;
+    font-size: 3em;
+    letter-spacing: 10px;
+    margin-top: 0;
+    padding: 4%;
+    background-color: black;
+    color: gray;
+    text-align: center;
+    font-family: 'Bangers', cursive;
+}
+
+/*
+=======================================================
+Win/Lose Restart action box
+=======================================================
+*/
+  
+.msgbtn {
+    background-color: white;
+    color: black;
+    border-color: dodgerblue;
+}
+  
+  
+.win-message {
+    color: dodgerblue;
+    font-size: 1.25em;
+    display: block;
+    margin-bottom: .5%;
+}
+  
+.lose-message {
+    color: darkred;
+    font-size: 1.25em;
+    display: block;
+    margin-bottom: .5%;
+}
+  
+#main_image {
+    width: 100%;
+}
+  
+.vader-message {
+    color: gainsboro;
+    font-size: 1.5em;
+    display: block;
+    margin-bottom: 4%;
+}
+  
+/*
+=======================================================
+Score/Turns/Used Letters
+=======================================================
+*/
+
+#winScore, #loseScore, #blankSpace, #guessesRemaining,#lettersGuessed {
+    background-color: black;  
+    text-align: left;
+    color: gray;
+    padding:10px;
+    font-family: 'Audiowide', cursive;
+    margin-top: 3px;
+    font-size: 12px;
+    width: 100%;
+    height: 50px;
+    float: left; 
+    margin-bottom: 100px;
+}
+
+/*
+=======================================================
+Footer
+=======================================================
+*/
+
+footer {
+    padding: 8px;
+    background: #666666;
+    border-top: 2px solid white;
+}
+
+footer small {
+    margin: 0;
+    color: black;
+    font-size: 0.7em;
+    padding: 8px 0;
+    text-align: center;
+}
+
